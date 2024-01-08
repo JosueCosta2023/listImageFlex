@@ -1,0 +1,43 @@
+body{
+    font-family: 'Public Sans', sans-serif;
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body .container-card{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+body .container-card .card{
+    display: flex;
+    position: relative;
+    width: 335px;
+    height: 431px;
+
+}
+
+body .container-card .card  img{
+    width: 100%;
+}
+body .container-card .card h2, p{
+    position: absolute;
+    align-self: flex-end;
+    padding: 10px;
+    bottom: 40px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+body .container-card .card p{
+    bottom: 20px;
+    font-weight: 400;
+}
